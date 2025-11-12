@@ -6,7 +6,7 @@
 /*   By: sofkhali <sofkhali@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 13:10:59 by sofkhali          #+#    #+#             */
-/*   Updated: 2025/11/10 18:36:57 by sofkhali         ###   ########.fr       */
+/*   Updated: 2025/11/12 17:13:41 by sofkhali         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,7 @@ int		is_sorted(t_stack *stack);
 void	index_stack(t_stack *stack);
 
 void	radix_sort(t_stack *a, t_stack *b);
-int		get_max_bits(t_stack *stack);
+int		ft_count_bits(t_stack *stack);
 
 void	sort_three(t_stack *a);
 void	sort_five(t_stack *a, t_stack *b);
